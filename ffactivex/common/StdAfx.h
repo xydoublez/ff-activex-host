@@ -118,15 +118,16 @@ extern CComModule _Module;
 
 // New winsock2.h doesn't define this anymore
 typedef long int32;
+typedef short int16;
 
 #define NS_SCRIPTABLE
 
-#include "nscore.h"
+//#include "nscore.h"
 #include "npapi.h"
 //#include "npupp.h"
 #include "npfunctions.h"
 
-#include "nsID.h"
+//#include "nsID.h"
 #include <npruntime.h>
 
 #include "../variants.h"

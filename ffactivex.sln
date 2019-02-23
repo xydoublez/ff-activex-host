@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ffactivex", "ffactivex\ffactivex.vcproj", "{B9ACDB28-1D44-4392-A2F1-83CFFD0C3376}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ffactivex", "ffactivex\ffactivex.vcxproj", "{B9ACDB28-1D44-4392-A2F1-83CFFD0C3376}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "transver", "transver\transver.vcproj", "{BCA84714-F877-4CDC-9C71-38861C7C0869}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "transver", "transver\transver.vcxproj", "{BCA84714-F877-4CDC-9C71-38861C7C0869}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3370382D-E652-492B-B419-2E59DBD75B8B}
 	EndGlobalSection
 EndGlobal

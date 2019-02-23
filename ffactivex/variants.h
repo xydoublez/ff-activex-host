@@ -32,7 +32,8 @@
  * ***** END LICENSE BLOCK ***** */
 
 #pragma once
-
+typedef long int32;
+typedef short int16;
 void Variant2NPVar(const VARIANT *var, NPVariant *npvar, NPP instance);
 void NPVar2Variant(const NPVariant *npvar, VARIANT *var, NPP instance);
 BSTR Utf8StringToBstr(LPCSTR szStr, int iSize);

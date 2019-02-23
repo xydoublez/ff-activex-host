@@ -5,3 +5,7 @@ Release/*
 *.suo
 *.user
 *.exe
+/.vs/ffactivex/v15
+/ffactivex/Debug
+/transver/Debug
+/Backup

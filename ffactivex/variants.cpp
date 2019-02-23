@@ -38,7 +38,7 @@
 #include <atlsafe.h>
 #include <npapi.h>
 #include <npfunctions.h>
-#include <prtypes.h>
+//#include <prtypes.h>
 
 #include <npruntime.h>
 #include "scriptable.h"

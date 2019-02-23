@@ -42,12 +42,15 @@
 
 #include "npapi.h"
 #include <npfunctions.h>
-#include <prtypes.h>
+//#include <prtypes.h>
 
 #include "targetver.h"
 
 #define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS      // some CString constructors will be explicit
 
+typedef long int32;
+typedef short int16;
+typedef unsigned short uint16;
 #include <atlbase.h>
 #include <atlstr.h>
 #include <atlcom.h>
